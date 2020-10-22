@@ -1,0 +1,23 @@
+this is the first line of the file f1.txt
+2 this it the second line of the file f1.txt
+3 this is the third line of the file f1.txt
+
+esc
+clear
+
+
+
+
+
+
+
+
+
+	
+	
+cd
+
+
+
+\
+
