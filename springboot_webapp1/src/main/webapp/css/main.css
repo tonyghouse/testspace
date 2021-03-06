@@ -1,0 +1,126 @@
+/*
+#1b1b1b
+#2ba837
+#f3f3f3
+*/
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+	width:1280px;
+    margin:0px auto;
+    font-family:'arial',sans-serif;
+    border:black 3px solid;
+}
+a{
+    color:#f3f3f3;
+    text-decoration:none;
+}
+.headbar{
+    font-size:2rem;
+    font-weight:bolder;
+    margin:auto;
+    padding:30px 0px;
+    background-color:#1b1b1b;
+    color:#2ba837;
+    display:flex;
+    align-items:center;
+    position:sticky;
+    top:0px;
+    width:100%;
+
+}
+.headercls{
+    display:inline-block;
+
+}
+.navbarcls{
+    display:inline-block;
+    margin-left:650px;
+    font-size:1.5rem;
+
+}
+.navbarcls a{
+    margin-right:25px;
+}
+.navbarcls a:hover{
+      background-color:#2ba837;
+      padding:14px;
+      border-radius:15px;
+}
+.footercls{
+    margin-top:20px;
+    background-color: #1b1b1b;
+    color:#2ba837;
+    text-align: center;
+    font-size: 3vw;
+    padding:10px;
+    font-weight: bolder;
+}
+
+.mainpagecls{
+    border:1px solid #2ba837;
+    background-color: #f3f3f3;
+    color:#2ba837;
+    font-size:3.5vw;
+    height:350px;
+    width:100%;
+    border:1px solid #2ba837;
+    text-align:center;
+    margin:0px auto;
+    line-height:100px;
+    z-index:-1;
+
+}
+.mainpagecls:hover{
+    background:radial-gradient(#f3f3f3,rgba(43, 168, 55, 0.7) 90%);
+
+}
+table{
+    margin:10px auto;
+    border-radius:1px;
+    border-spacing:10px;
+}
+.sectioncls{
+    margin-top:10px;
+}
+.sectioncls span{
+    background-color: #2ba837;
+    color:#f3f3f3;
+    font-size:2rem;
+    text-align:center;
+    display:inline-block;
+    margin-top:10px;
+    height:90px;
+    width:100%;
+    padding-top:20px;
+
+}
+.sectioncls span:hover{
+    color:#2ba837;
+    border:#2ba837 1px solid;
+    background:radial-gradient(#f3f3f3,rgba(43, 168, 55, 0.7) 60%);
+
+}
+.sectioncls table > tbody > tr:first-child > td{
+    background-color: #f3f3f3;
+    text-align: center;
+    width:23vw;
+    height:300px;
+    border:#2ba837 4px solid;
+
+}
+.sectioncls table > tbody > tr:nth-child(2) > td{
+    text-align: center;
+    width:23vw;
+    color:#2ba837;
+    font-size:1.9vw;
+
+}
+img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+}
